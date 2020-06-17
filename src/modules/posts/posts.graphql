@@ -1,0 +1,10 @@
+type Test {
+  userId: Int
+  id: Int
+  title: String
+  body: String
+}
+
+type Query {
+  getAllTypes: [Test]
+}
